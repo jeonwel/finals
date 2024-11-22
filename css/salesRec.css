@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    background-image: url(../images/bg1.jpg);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: -50px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+h1, h2{
+    font-family: "Poppins", cursive;
+    background-image: linear-gradient(to bottom, #6f1d1b, #7f3422, #8e4a2b, #9d6035, #aa7642, #b6864f, #c1975c, #cca86a, #d9b779, #e5c788, #f2d697, #ffe6a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.table-container {
+    margin-top: 30px;
+    overflow-x: auto;
+    position: relative;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--primary-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table thead th {
+    color: #ddcabc;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid #FFE6A7;
+}
+
+.table tbody td {
+    padding: 12px;
+    font-size: 14px;
+    color: #dbbba3;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #99582A;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #432818;
+}
+
+.table tbody tr:hover {
+    background-color: #3d3722;
+}
+
+#no-orders-message{
+    text-align:center; 
+    font-weight:bold;
+    color: #96907c;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
